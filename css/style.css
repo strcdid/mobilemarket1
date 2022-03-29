@@ -538,20 +538,25 @@ color:#fff;
 
 /* 6-2. MAIN NAVIGATION */
 
-.main-nav{
+.main-nav1{
 padding:0px;
 width:100%;
+position: fixed;
+  bottom: 0;
+  width: 100%;
 }
-.main-nav ul{
+.main-nav1 ul{
 width:100%;
 list-style:none;
 padding:0;
 margin:0 auto;
-display:block;
+/* display:block; */
 float:left;
 clear:both;
+display: flex;
+  flex-wrap: nowrap;
 }
-.main-nav ul li{
+.main-nav1 ul li{
 width:33.223%;
 list-style:none;
 padding:0px;
@@ -560,21 +565,59 @@ display:block;
 text-align:center;
 float:left;
 }
-.main-nav ul li img{
+.main-nav1 ul li img{
 display:block;
 max-width:30%;
 margin:auto;
 }
-.main-nav ul li span{
+.main-nav1 ul li span{
 display:block;
 padding:10px 0 0 0;
 }
-.main-nav ul li a{
+.main-nav1 ul li a{
 font-size:10px;
 font-weight:700;
 color:#ffffff;
 letter-spacing:0.5px;
 }
+
+.main-nav{
+	padding:0px;
+	width:100%;
+	}
+	.main-nav ul{
+	width:100%;
+	list-style:none;
+	padding:0;
+	margin:0 auto;
+	display:block;
+	float:left;
+	clear:both;
+	}
+	.main-nav ul li{
+	width:33.223%;
+	list-style:none;
+	padding:0px;
+	margin:0 0 40px 0;
+	display:block;
+	text-align:center;
+	float:left;
+	}
+	.main-nav ul li img{
+	display:block;
+	max-width:30%;
+	margin:auto;
+	}
+	.main-nav ul li span{
+	display:block;
+	padding:10px 0 0 0;
+	}
+	.main-nav ul li a{
+	font-size:10px;
+	font-weight:700;
+	color:#ffffff;
+	letter-spacing:0.5px;
+	}
 
 .subnav_header{
 width:90%;
@@ -958,9 +1001,9 @@ float:left;
 }
 /* Style block */
 ul.features_list_block{
-padding:0 0 20px 0;
+padding:0 0 0px 0;
 width:100%;
-margin:0px;
+/* margin:0px; */
 list-style:none;
 float:left;
 clear:both;
@@ -1544,7 +1587,7 @@ display:block;
 width:50%;
 float:left;
 margin:0 0 10px 5%;
-border-right:1px #3d3e50 solid;
+/* border-right:1px #3d3e50 solid; */
 }
 .item_qnty_shop{
 width:50%;
@@ -1563,7 +1606,7 @@ text-align:center;
 font-size:14px;
 padding:0 0 10px 0;
 }
-input.qntyminus, input.qntyplus, input.qntyminusshop, input.qntyplusshop{
+input.qntyminus, input.qntyplus, input.qntyminusshop, input.qntyplusshop, a.qntyplusshop{
 width:30px;
 float:left;
 background:none;
