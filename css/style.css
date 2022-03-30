@@ -540,19 +540,19 @@ color:#fff;
 
 .main-nav1{
 padding:0px;
+width:100%;
 position: fixed;
   bottom: 0;
   width: 100%;
-  background: #ffab62;
-  margin: 30% 10% 0% 0; 
+background: orange;
+margin: 30% 10% 0 0;
 }
 .main-nav1 ul{
 width:100%;
 list-style:none;
 padding:0;
-
 margin:0 auto;
-display:block;
+/* display:block; */
 float:left;
 clear:both;
 display: flex;
@@ -562,7 +562,7 @@ display: flex;
 width:33.223%;
 list-style:none;
 padding:0px;
-margin:0 0 20px 0;
+margin:0 0 8px 0;
 display:block;
 text-align:center;
 float:left;
@@ -570,12 +570,11 @@ float:left;
 .main-nav1 ul li img{
 display:block;
 max-width:30%;
-margin:25px 50px 0px 50px;
+margin:auto;
 }
 .main-nav1 ul li span{
 display:block;
 padding:10px 0 0 0;
-margin-right: 12px;
 }
 .main-nav1 ul li a{
 font-size:10px;
@@ -592,8 +591,7 @@ letter-spacing:0.5px;
 	width:100%;
 	list-style:none;
 	padding:0;
-	margin-bottom: 200px;
-	/* margin:0 auto; */
+	margin:0 auto;
 	display:block;
 	float:left;
 	clear:both;
