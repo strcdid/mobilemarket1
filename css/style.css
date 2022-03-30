@@ -540,7 +540,6 @@ color:#fff;
 
 .main-nav1{
 padding:0px;
-width:100%;
 position: fixed;
   bottom: 0;
   width: 100%;
@@ -549,7 +548,8 @@ position: fixed;
 width:100%;
 list-style:none;
 padding:0;
-margin:0 auto;
+margin: 0 20px 0px 0; 
+/* margin:0 auto; */
 /* display:block; */
 float:left;
 clear:both;
@@ -589,7 +589,8 @@ letter-spacing:0.5px;
 	width:100%;
 	list-style:none;
 	padding:0;
-	margin:0 auto;
+	margin-bottom: 200px;
+	/* margin:0 auto; */
 	display:block;
 	float:left;
 	clear:both;
