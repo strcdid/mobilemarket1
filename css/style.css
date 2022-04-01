@@ -2590,6 +2590,8 @@ font-size:16px;
 }
 a.button_full{
 padding:10px 0;
+margin-bottom: 50px;
+/* border-radius: 50%; */
 }
 .bottombarpages{
 height:60px;
