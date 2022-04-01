@@ -541,8 +541,8 @@ color:#fff;
 .main-nav1{
 padding:40px 0px 0px 0px;
 width:100%;
-position: fixed;
-bottom: 0;
+/* position: absolute;
+bottom: 0; */
 width: 100%;
 /* margin: 30% 10% 0 0	; */
 }
@@ -595,7 +595,7 @@ letter-spacing:0.5px;
 	/* margin:0 auto; */
 	display:block;
 	float:left;
-	clear:both;
+	/* clear:both; */
 	}
 	.main-nav ul li{
 	width:33.223%;
