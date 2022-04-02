@@ -1902,13 +1902,13 @@ color:#ffffff;
 width:100%;
 float:left;
 clear:both;
-margin-bottom: 60px;
 }
 .post_thumb{
 width:50%;
 float:left;
 position:relative;
 background-color:#000;
+/* margin-bottom: 60px; */
 }
 .post_thumb img{
 display:inline-block;
